@@ -49,3 +49,8 @@ Sentiment: 1 - Score: 0.838837431121674
 python work/cli/sentiapp.py review="this is a horrible restaurant! the food sucks" -m model_lr_bow
 Sentiment: 0 - Score: 0.7953132749299411
 ```
+
+## Model Training / Evaluation
+- The SpaCy library has been used for text preprocessing. 
+- The Scikit-Learn library has been used for machine learning model training and evaluation.
+- The model training / evaluation pipeline is implemented in the `notebook/train-evaluate-persist-model.ipynb` Jupyter notebook.
